@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Power BI - Nicole Noleto</title>
+  <style>
+    body {
+      background-color: #1a0033;
+      color: #fff;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      color: #ff7b00;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      max-width: 800px;
+      margin: auto;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+
+    .media-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 2rem;
+    }
+
+    .media-container img {
+      max-width: 550px;
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease; /* para efeito de zoom */
+    }
+
+    .media-container img:hover {
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 768px) {
+      .media-container img {
+        max-width: 90%;
+      }
+    }
+
+    video {
+      max-width: 600px;
+      margin-top: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.75rem 1.5rem;
+      border-radius: 25px;
+      background-color: #ff7b00;
+      color: #1a0033;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    a:hover {
+      background-color: #e66a00;
+    }
+  </style>
+</head>
+<body>
+  <h1>📊 Projeto Power BI</h1>
+
+  <p>
+    O projeto começou com a <strong>importação de um arquivo CSV</strong>, seguido por um processo de 
+    <strong>tratamento de dados</strong> executado inteiramente no Power Query do Power BI. 
+    As etapas incluíram <strong>limpeza e transformação</strong> dos dados e 
+    <strong>deduplicação de registros</strong>.
+  </p>
+
+  <p>
+    Após o tratamento, o dashboard foi <strong>construído do zero</strong>, 
+    incluindo gráficos de <strong>rotatividade por idade, cargo, nível de escolaridade</strong> e outros indicadores relevantes.
+  </p>
+
+  <p>
+    Este dashboard atua como uma <strong>ferramenta visual estratégica</strong> para os 
+    departamentos de RH e gestores, permitindo a identificação rápida de <strong>tendências</strong> 
+    e auxiliando na <strong>tomada de decisões informadas para retenção de talentos</strong>.
+  </p>
+
+  <div class="media-container">
+    <img src="powerBiImage.png" alt="Dashboard Power BI mostrando indicadores de Recursos Humanos">
+    <img src="database.png" alt="Segunda parte do dashboard Power BI com análise de cargos e salários">
+  </div>
+
+  <video controls loop muted>
+    <source src="Demonstracao.mp4" type="video/mp4">
+    Seu navegador não suporta a tag de vídeo.
+  </video>
+
+  <br>
+  <a href="index.html">⬅ Voltar ao Portfólio</a>
+</body>
+</html>
